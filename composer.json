@@ -1,0 +1,18 @@
+{
+    "name": "yangcheng/yangcheng",
+    "description": "very niubi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangcheng",
+            "email": "573950814@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+	"psr-4": {
+	    "Yangcheng\\": "src/"
+	}
+    }
+}
