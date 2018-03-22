@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "aliyuncs/oss-sdk-php": "dev-master"
+    },
     "autoload": {
 	"psr-4": {
 	    "Yangcheng\\": "src/"

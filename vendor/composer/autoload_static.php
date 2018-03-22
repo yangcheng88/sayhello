@@ -11,12 +11,20 @@ class ComposerStaticInitaeb42795af9c451c688e2d344316a030
         array (
             'Yangcheng\\' => 10,
         ),
+        'O' => 
+        array (
+            'OSS\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Yangcheng\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'OSS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aliyuncs/oss-sdk-php/src/OSS',
         ),
     );
 

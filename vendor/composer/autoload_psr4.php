@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Yangcheng\\' => array($baseDir . '/src'),
+    'OSS\\' => array($vendorDir . '/aliyuncs/oss-sdk-php/src/OSS'),
 );
